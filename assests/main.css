@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html {
+    height: 100%;
+    margin: 0;
+}
+.all {
+    background-image: url(background1.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.container {
+    position: absolute;
+    top: 100px;
+    left: 750px;
+    width: 700px;
+    height: 700px;
+    background-image: url(wrapper3.jpg);
+    border: 0.1px hidden black ;
+    opacity: 0.7;
+}
+.container:hover {
+    opacity: 1;
+}
+.title-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 100px;
+}
+
+.title-header h1 {
+    color: black;
+    text-align: center;
+    font-size: 40px;
+
+}
+.wrapper {
+    width: 500px;
+    height: 450px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    border: 1px hidden #333;
+}
+.conclusion {
+    width: 700px;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    
+}
+.result {
+    width: 500px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    left: 100px;
+
+    
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 50px;
+}
+.title h2 {
+    text-align: center;
+    font-size: 25px;
+}
+.selection {
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.text-input1 {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.text1 {
+    height: 50px;
+}
+.text1 h2 {
+    font-size: 25px;
+}
+.input1 input {
+    height: 40px;
+    width: 120px;
+}
+.text-input2 {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text2 {
+    height: 50px;
+}
+.text2 h2 {
+    font-size: 25px;
+}
+.input2 input {
+    height: 40px;
+    width: 120px;
+}
+.calculate {
+        height: 104.56px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.calculate button {
+    height: 60px;
+    width: 200px;
+}
