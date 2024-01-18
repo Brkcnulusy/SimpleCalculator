@@ -85,7 +85,7 @@ body,html {
     font-size: 25px;
 }
 .selection {
-    width: auto;
+    width: 100%;
     height: auto;
     display: flex;
     justify-content: space-around;
@@ -132,4 +132,10 @@ button {
     width: 250px;
     background-color: #000;
     color: #fff;
+}
+
+select {
+    width: 250px;
+    height: 50px;
+    padding-left: 10px;
 }
