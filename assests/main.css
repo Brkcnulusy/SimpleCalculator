@@ -9,22 +9,28 @@ body,html {
 }
 .all {
     background-image: url(background1.jpg);
-    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    overflow-y: scroll;
 }
 .container {
-    position: absolute;
-    top: 100px;
-    left: 750px;
     width: 700px;
-    height: 700px;
+    height: 100%;
     background-image: url(wrapper3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     border: 0.1px hidden black ;
     opacity: 0.7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
 }
 .container:hover {
     opacity: 1;
@@ -33,8 +39,8 @@ body,html {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: auto;
-    height: 100px;
+    width: 100%;
+    height: auto;
 }
 
 .title-header h1 {
@@ -44,35 +50,35 @@ body,html {
 
 }
 .wrapper {
-    width: 500px;
-    height: 450px;
-    position: absolute;
-    top: 100px;
-    left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
     border: 1px hidden #333;
+    gap: 30px;
 }
 .conclusion {
-    width: 700px;
-    height: 150px;
-    position: absolute;
-    bottom: 0;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;  
 }
 .result {
-    width: 500px;
-    height: 150px;
-    position: absolute;
-    top: 0;
-    left: 100px;
-
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
 }
 .title {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: auto;
-    height: 50px;
+    width: 100%;
+    height: auto;
 }
 .title h2 {
     text-align: center;
@@ -80,13 +86,13 @@ body,html {
 }
 .selection {
     width: auto;
-    height: 50px;
+    height: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 .text-input1 {
-    height: 120px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -94,39 +100,36 @@ body,html {
 
 }
 .text1 {
-    height: 50px;
+    height: auto;
 }
 .text1 h2 {
     font-size: 25px;
 }
-.input1 input {
-    height: 40px;
-    width: 120px;
+input {
+    height: 50px;    
 }
 .text-input2 {
-    height: 120px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .text2 {
-    height: 50px;
+    height: auto;
 }
 .text2 h2 {
     font-size: 25px;
 }
-.input2 input {
-    height: 40px;
-    width: 120px;
-}
 .calculate {
-        height: 104.56px;
+        height: auto;
         display: flex;
         justify-content: center;
         align-items: center;
 }
-.calculate button {
-    height: 60px;
-    width: 200px;
+button {
+    height: 50px;
+    width: 250px;
+    background-color: #000;
+    color: #fff;
 }
